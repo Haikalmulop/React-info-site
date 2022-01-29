@@ -1,0 +1,58 @@
+body{
+    background: #807375;
+    margin: 0px 0px 0px 0px;
+  }
+
+  nav{
+    background: #332E2F;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 10px;
+  }
+
+.logo{
+      width: 70px;
+      margin-left: 10px;
+  }
+
+  nav > h1{
+      margin-right: auto;
+      margin-left: 10px;
+      font-size: 30px;
+      font-weight: 700;
+      color: #61DAFB;
+  }
+
+nav > h2 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 15px; 
+    color: #B3ABAC;
+
+}     
+
+.main{
+    padding: 30px 100px;
+    font-size: 80px;
+    color:bisque;
+}
+
+ul{
+    padding: 10px 150px;
+    font-size: 35px;
+    color:bisque;
+}
+
+li::marker{
+    font-size: 1.06em;
+    color: #61DAFB;
+}
+
+.main_div{
+    background-image: url(./image/logo192.png);
+    background-repeat: no-repeat;
+    background-position-x: 114%;
+    background-position-y: 80%;
+    background-size: 20% 70%;
+}
